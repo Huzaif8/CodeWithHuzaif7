@@ -25,7 +25,233 @@
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
 </head>
+<style>* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
 
+/* if you want to change the font remove comment out  */
+/* body {
+      background-color: rgb(0, 0, 33);
+      color: white;
+      font-family: 'Poppins', sans-serif;
+
+  } */
+
+/* Hover To My page Title  */
+
+.hover:hover {
+  border: 1.2px solid white;
+  /* margin: 1px; */
+}
+
+/* Whole Body Color and it's all CSS  */
+.body-color {
+  background-color: rgb(0, 0, 33);
+  color: white;
+}
+
+/* First nav bar or Header bar is started  */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: rgb(52, 152, 224);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Hover Animation on the tabs  */
+
+nav ul li a:hover {
+  color: rgb(255, 255, 0);
+  font-size: 1.1rem;
+  text-decoration: underline White;
+}
+
+/* ----------------------  */
+
+/* Second Nav Bar Header Bar  */
+.second-navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 30px;
+  background-color: rgb(116, 92, 92);
+}
+
+/* it is use to add tabs in center  */
+.second-navbar ul {
+  display: flex;
+  justify-content: center;
+}
+
+/* List tag dot is removed by this Code  */
+.second-navbar ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+/* Anchor tag Underline removed By Given CSS  */
+.second-navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* hover Animation Effect by given CSS  */
+.second-navbar ul li a:hover {
+  color: rgb(0, 255, 251);
+  text-decoration: underline red;
+  /* font-size: 1.1rem; */
+}
+
+/* Dropdown CSS Code  */
+
+/* 0000000000000  */
+
+.left {
+  font-size: 1.5rem;
+}
+
+/* b {
+  margin-right: 300px;
+} */
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  margin: 23px 0;
+  align-items: center;
+}
+
+.firstSection>div {
+  width: 30%;
+  /* margin: 70px 0; */
+}
+
+.leftSection {
+  /* background-color: red; */
+  font-size: 2.2rem;
+  /* margin: 30px 0; */
+}
+
+.leftSection .btn {
+  padding: 10px;
+  background: #aae143;
+  /* color: rgb(0, 0, 0); */
+  border: 2px solid white;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.leftSection .btn a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Image Tag CSS code  */
+.rightSection img {
+  width: 80%;
+}
+
+.purpul {
+  color: rgb(132, 0, 255);
+}
+
+#element {
+  color: rgb(0, 4, 255);
+}
+
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+}
+
+/* Body Section  */
+
+.bodysection {
+  margin: 4px;
+  padding: 2px;
+}
+
+/* Mobile  */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .right ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    background-color: rgb(52, 152, 224);
+  }
+
+  .right ul.active {
+    display: flex;
+  }
+
+  .right ul li {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .leftSection {
+    /* background-color: red; */
+    font-size: 1.025rem;
+    margin-right: 70px;
+    /* margin: 30px 0; */
+  }
+
+  #bold {
+    align-items: center;
+    margin-left: 60px;
+  }
+
+  .space {
+    height: 1px;
+    /* position: fixed; */
+  }
+
+  .rightSection img {
+    width: 110px;
+  }
+
+
+  .leftSection .btn {
+    padding: 5px;
+    background: #aae143;
+    /* color: rgb(0, 0, 0); */
+    border: 2px solid white;
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+
+  .leftSection .btn a {
+    color: black;
+    text-decoration: none;
+  }
+}</style>
 <body>
   <div class="body-color">
     <header>
